@@ -1,12 +1,33 @@
-# React + Vite
+# 🎬 Movies Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-featured and responsive movie search application built with **ReactJS**, powered by the **OMDB API**.  
+Easily search for your favorite movies, view detailed information, and manage a list of favorites — all in one place.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+🔗 [View on Netlify](https://6800dace73e4ae7ad663e175--singular-stardust-6171c2.netlify.app/)  
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- ⚛️ **ReactJS**
+- 🌐 **React Router DOM**
+- 🎨 **Tailwind CSS**
+- 💻 **HTML & JavaScript**
+- 📡 **OMDB API**
+
+---
+
+## ✨ Features
+
+- 🔍 **Movie Search** with keyword support
+- 🎞️ **Search Results** in grid layout with posters and titles
+- 📃 **Detailed Movie View** with full metadata (poster, title, year, genre, plot, cast, ratings)
+- 🗂️ **Dropdown Filter** using OMDB API (no `.filter()` method used)
+- 📑 **Pagination** for easy navigation through results
+- 💖 **Favorites Management**
+- 🧭 **Routing** using React Router
+- ⚠️ **Error Handling** for API failures or no results
+- 📱 **Responsive Design** for all screen sizes
